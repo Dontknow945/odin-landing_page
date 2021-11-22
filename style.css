@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.top div {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+header img {
+    width: 500px;
+}
+
+.top {
+    display: flex;
+}
+
+.bottom {
+    flex: 5;
+    display: flex;
+}
+
+.text, a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards img {
+    width: 200px;
+}
+
+.card {
+    color: #555;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font: italic 36px light;
+    color: #1f2937;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
