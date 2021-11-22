@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -10,15 +11,18 @@ header {
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 16px 200px;
 }
 
 .top div {
     font-size: 24px;
+    font-weight: bold;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0 0 16px;
 }
 
 header img {
@@ -27,11 +31,15 @@ header img {
 
 .top {
     display: flex;
+    justify-content: space-between;
 }
 
 .bottom {
     flex: 5;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 72px 0;
 }
 
 .text, a {
@@ -40,43 +48,105 @@ header img {
     font-size: 18px;
 }
 
+.text {
+    margin-bottom: 16px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 48px 0;
+    margin-bottom: 60px;
+}
+
 h2 {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    margin: 0;
 }
 
 .cards {
     display: flex;
+    gap: 48px;
 }
 
 .cards img {
-    width: 200px;
+    width: 170px;
+    border: 5px #3882f6 solid;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
 }
 
 .card {
     color: #555;
+    max-width: 170px;
+    text-align: center;
 }
 
 .quote {
     background-color: #e5e7eb;
-    font: italic 36px light;
     color: #1f2937;
+    padding: 48px 330px;
+}
+
+.words {
+    font: italic 36px lighter;
+}
+
+.author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .signup {
+    padding: 100px 200px;
+}
+
+.container {
     display: flex;
     background-color: #3882f6;
     color: #f9faf8;
+    justify-content: center;
+    gap: 150px;
+    padding: 48px 0;
+    border-radius: 8px;
+}
+
+.signup button {
+    border: 3px #f9faf8 solid;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
 }
 
 footer {
     background-color: #1f2937;
     color: #f9faf8;
+    text-align: center;
+    padding: 32px 0;
 }
 
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+button {
+    border: 0;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: bold;
 }
